@@ -21,11 +21,10 @@ FXCM's trading hours vary by product. For forex, trading opens on Sundays betwee
 1.	Python wrapper fxcmpy at [here](https://www.fxcm.com/fxcmpy/) 
 2.	Sample code in Node.js at [here](https://github.com/fxcm/RestAPI/tree/master/fxcm-api-rest-nodejs-example) 
 3.	Quick start guide in Java at [here](https://github.com/fxcm/RestAPI/blob/master/FXCM%20JAVA%20REST%20API%20QuickStart.pdf)
-4.  Java sample code at [here](https://apiwiki.fxcorporate.com/api/RestAPI/JavaRestClient.zip)
-5.  C# sample code at [here](https://apiwiki.fxcorporate.com/api/RestAPI/RestAPI_CSharp_sample_code.zip)
-6.	Apply for a [demo account](https://www.fxcm.com/uk/forex-trading-demo/)  Generate access token. You can generate one from the <a href="https://tradingstation.fxcm.com/">Trading Station web</a>. Click on User Account > Token Management on the upper right hand of the website. For Live account, please send your username to api@fxcm.com, we will need to enable Rest API access. For demo account, Rest API access was enabled by default.
-7.	Download Rest API pdf documents at <a href="https://apiwiki.fxcorporate.com/api/RestAPI/Socket%20REST%20API%20Specs.pdf">here</a>
-8. Start coding.  You will need to reference the <a href="https://socket.io/docs/client-api/">socket.io library</a> in your code. 
+4. Java sample code at [here](https://apiwiki.fxcorporate.com/api/RestAPI/JavaRestClient.zip)
+5.	Apply for a [demo account](https://www.fxcm.com/uk/forex-trading-demo/)  Generate access token. You can generate one from the <a href="https://tradingstation.fxcm.com/">Trading Station web</a>. Click on User Account > Token Management on the upper right hand of the website. For Live account, please send your username to api@fxcm.com, we will need to enable Rest API access. For demo account, Rest API access was enabled by default.
+6.	Download Rest API pdf documents at <a href="https://apiwiki.fxcorporate.com/api/RestAPI/Socket%20REST%20API%20Specs.pdf">here</a>
+7. Start coding.  You will need to reference the <a href="https://socket.io/docs/client-api/">socket.io library</a> in your code. 
    a.	Using Javascript, click <a href="https://www.npmjs.com/package/socket.io">here</a>
    b.	 Using Python, click <a href="https://github.com/miguelgrinberg/python-socketio">here</a>
 
