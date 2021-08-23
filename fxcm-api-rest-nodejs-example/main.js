@@ -13,11 +13,11 @@ var token = config.token;
 var trading_api_host = config.trading_api_host;
 var trading_api_port = config.trading_api_port;
 var trading_api_proto = config.trading_api_proto;
-if(typeof(token) === 'undefined' || typeof(trading_api_host) === 'undefied' || typeof(trading_api_port) === 'undefined' || typeof(trading_api_proto) === 'undefined') {
+if (typeof(token) === 'undefined' || typeof(trading_api_host) === 'undefined' || typeof(trading_api_port) === 'undefined' || typeof(trading_api_proto) === 'undefined') {
 	console.log('config.js contents error');
 	process.exit();
 }
-if(token === 'PASTE_YOUR_TOKEN_HERE') {
+if (token === 'PASTE_YOUR_TOKEN_HERE') {
 	console.log('please paste your token in config.js file');
 	process.exit();
 }
@@ -186,7 +186,7 @@ cli.on('load', (params) => {
 		console.log('command error: "filename" parameter is missing.')
 	} else {
 		var test = require(`./${params.filename}`);
-		test.init(cli,socket);
+		test.init(cli, socket);
 	}
 });
 
