@@ -161,7 +161,9 @@ pip install –U fxcmpy
 
 #### 01/24/2020:
 We will release to live account coming weekend at 01/24/2020. 
+
 Please refer to the above release and make sure your code is working on demo and get prepared.
+
 Please contact us at api@fxcm.com if you have any questions. 
 
 #### 03/24/2022:
