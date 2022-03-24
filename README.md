@@ -166,9 +166,13 @@ Please contact us at api@fxcm.com if you have any questions.
 
 #### 03/24/2022:
 We will upgrad JS Server SocketIO to 3.1. 
+
 On client side, we recommend socketio==5.0.x with engineio==4.x.x down to 3.14.2. 
+
 socketio==5.1+.x does not work with any version of engineio.
+
 We will release to demo in 1-2 weeks. 
+
 Please contact us at api@fxcm.com if you have any questions. 
 
 ## Note:
