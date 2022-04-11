@@ -136,7 +136,7 @@ class Trader(object):
         return self.__return(True, "Connecting")
 
     def bearerGen(self):
-        return("Bearer " + self.socketIO.eio.sid + self.access_token)
+        return("Bearer " + self.socketIO.get_sid() + self.access_token)
         
     def on_connect(self):
         '''
@@ -149,7 +149,7 @@ class Trader(object):
 
         :return: None
         '''
-        self.logger.info('Websocket connected: ' + self.socketIO.eio.sid)
+        self.logger.info('Websocket connected: ' + self.socketIO.get_sid())
         self.bearer = self.bearerGen()
         self.HEADERS['Authorization'] = self.bearer
         accounts = self.get_model("Account").get('accounts', {})
