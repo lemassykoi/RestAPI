@@ -1,3 +1,0 @@
-fxcmpy>=1.2.6
-python-socketio==4.4
-python-engineio==3.9
