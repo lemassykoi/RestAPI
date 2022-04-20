@@ -848,7 +848,7 @@ class Trader(object):
         except Exception as e:
             return self.__return(False, str(e))
 
-    def close_all_for_symbol(self, symbol, account_id=None, forSymbol=True,
+    def close_all_for_symbol(self, symbol, account_id=None, forSymbol="true",
                              order_type="AtMarket", time_in_force="GTC"):
         '''
         Closes all trades for the specified account and symbol by creating net
