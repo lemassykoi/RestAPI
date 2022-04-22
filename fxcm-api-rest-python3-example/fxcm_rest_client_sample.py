@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 import fxcm_rest_api_token as fxcm_rest_api
 import time
